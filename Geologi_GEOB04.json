@@ -1,0 +1,322 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "6a0dd900-8109-11e6-a648-00268331a950", 
+    "deck_config_uuid": "6a0dd901-8109-11e6-9a75-00268331a950", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "6a0dd901-8109-11e6-9a75-00268331a950", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_source_svg.svg", 
+        "cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_Q 1.svg", 
+        "cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_A 0.svg", 
+        "paste-8284991913985.jpg", 
+        "cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_Q 0.svg", 
+        "cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_tmpzpilk3.png"
+    ], 
+    "name": "Geologi GEOB04", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "ef493569-8109-11e6-b9d8-00268331a950", 
+            "css": ".card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.io-field-descr{\n  font-weight: bold;\n}\n\n#io-title{\n  font-size: 1.1em;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2\n}\n\n#io-question{\n  margin-top: 0.8em;\n}\n\n#io-footer{\n  margin-top: 0.8em;\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Question", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Answer", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "SVG", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Original Image", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Header", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Footer", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Remarks", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Sources", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "TempField3", 
+                    "ord": 8, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "TempField4", 
+                    "ord": 9, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "TempField5", 
+                    "ord": 10, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Image Q/A - 2.0 Enhanced", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        3
+                    ]
+                ]
+            ], 
+            "sortf": 4, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{#Original Image}}\n<div id=\"io-title\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer}}</div>\n  <div id=\"io-original\">{{Original Image}}</div>\n</div>\n<div id=\"io-footer\">\n  {{#Footer}}\n    <div>{{Footer}}</div>\n    <hr>\n  {{/Footer}}\n  {{#Remarks}}\n    <div>\n      <span class=\"io-field-descr\">Remarks: </span>{{Remarks}}\n    </div>\n  {{/Remarks}}\n    </br>\n  {{#Sources}}\n    <div>\n      <span class=\"io-field-descr\">Sources: </span>{{Sources}}\n    </div>\n  {{/Sources}}\n</div>\n{{/Original Image}}\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Image Q/A", 
+                    "ord": 0, 
+                    "qfmt": "{{#Original Image}}\n<div id=\"io-title\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question}}</div>\n  <div id=\"io-original\">{{Original Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n{{/Original Image}}\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "6a0dd904-8109-11e6-afad-00268331a950", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Suspensionstransport", 
+                "Sedimentär transport&nbsp;"
+            ], 
+            "flags": 0, 
+            "guid": "cq]`B>`abD", 
+            "note_model_uuid": "6a0dd904-8109-11e6-afad-00268331a950", 
+            "tags": [
+                "GEOB04"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "snippp", 
+                "<img src=\"paste-8284991913985.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "ncZu8q`_[m", 
+            "note_model_uuid": "6a0dd904-8109-11e6-afad-00268331a950", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_Q 0.svg\" />", 
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_A 0.svg\" />", 
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_source_svg.svg\" />", 
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_tmpzpilk3.png\" />", 
+                "Sniippps", 
+                "Vad säger den andra?? ", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w5>9C-?0.S", 
+            "note_model_uuid": "ef493569-8109-11e6-b9d8-00268331a950", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_Q 1.svg\" />", 
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_A 0.svg\" />", 
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_source_svg.svg\" />", 
+                "<img src=\"cabb3672dc29c6929819caef0b8b7c2e2b2ac2f9_tmpzpilk3.png\" />", 
+                "Sniippps", 
+                "Vad säger den andra?? ", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vlH(C>hJJ(", 
+            "note_model_uuid": "ef493569-8109-11e6-b9d8-00268331a950", 
+            "tags": []
+        }
+    ]
+}
